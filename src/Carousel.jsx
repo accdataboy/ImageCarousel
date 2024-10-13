@@ -1,6 +1,14 @@
 import { useState } from "react";
-import { motion, AnimatePresence } from "framer-motion";
+import { motion, AnimatePresence } from "framer-motion"; // Sasha says he uses custom, hand-built carousel is lightweight
 
+/*
+Sasha has a great idea about "lazy loading" of images; only the first two images at first. When selecting second; start each subsequent download to reduce 
+time downloading but each one appears immediately
+*/
+
+/*
+TODO: Add full screen capability; poss ImageMagick
+*/
 const Carousel = ({ images }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [direction, setDirection] = useState(null);
