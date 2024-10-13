@@ -9,6 +9,9 @@ const images = [
   "https://scontent-den2-1.xx.fbcdn.net/v/t39.30808-6/461983667_10162154048208523_4281176579451641054_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=zQzChDmJT_kQ7kNvgFSkGrO&_nc_ht=scontent-den2-1.xx&_nc_gid=Ax8ntjxCDMlC4bfCyGZo3z3&oh=00_AYAkn0GBuOjQPjF_1_BU5k4-oV0wSaR8jVWVRkxPx13LSA&oe=6711B8A3",
   "https://scontent-den2-1.xx.fbcdn.net/v/t39.30808-6/461982002_10162153883873523_8656916537879575721_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=127cfc&_nc_ohc=S-ZLPvI-8HYQ7kNvgGOoKb1&_nc_ht=scontent-den2-1.xx&_nc_gid=AFvjz7g3WLLRJRhv7oBU9Jp&oh=00_AYBk8K63fvE3tcqJhm7CSTIw0N7yTgwFo-d4w_1qXvWXMQ&oe=6711ABBF"
 ];
+/*
+Sasha says that individual downloads should be context aware; e.g. for viewing on Retina displays (@2x, @3x. etc)
+*/
 function App() {
   return (
     <div className="App">
